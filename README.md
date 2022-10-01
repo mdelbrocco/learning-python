@@ -39,5 +39,15 @@ Note: PyPI = Python Package Index
 * [Deploy Python to Azure App Service using containers](https://learn.microsoft.com/azure/developer/python/tutorial-deploy-containers-01)
 * [Deploy Python to Azure App Service on Linux](https://learn.microsoft.com/azure/developer/python/configure-python-web-app-local-environment)
 
-## grep.py
-I wanted to try something like grep, followed examples in [this article](https://linuxhint.com/run-grep-python/).
+## search.py and grep.py
+I wanted to try something like grep, followed examples in [this article](https://linuxhint.com/run-grep-python/). The former is just a simple search with re.search(), the latter can be run from command line like this:
+
+> python grep.py 'Coffee' 'new_file.txt'
+
+OR
+
+> py grep.py 'Coffee' 'new_file.txt'
+
+OR
+ 
+> ./grep.py 'Coffee' 'new_file.txt'

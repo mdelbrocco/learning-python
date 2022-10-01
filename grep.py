@@ -1,10 +1,7 @@
 import re
+import sys
 
-file_one = open("new_file.txt", "w") # open (create) file for writing
-file_one.write("Coffee\nPlease")
-file_one.close()
-pattern = "Coffee"
-file_one = open("new_file.txt", "r") # open file for reading
-for word in file_one:
-  if re.search(pattern, word):
-    print(word)
+with open(sys.argv[2], "r") as file3:
+  for line in file3:
+    if re.search(sys.argv[1], line):
+      print(line)
