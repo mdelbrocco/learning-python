@@ -1,9 +1,11 @@
 # Learning Python
 
-I decided to use VS Code as my editor so I followed [this tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
+I decided to use VS Code as my editor so I followed [this tutorial](https://code.visualstudio.com/docs/python/python-tutorial).
 
+## hello.py
 Created a simple hello world program and made sure debugging worked - easy enough!
 
+## standardplot.py
 Next created a standard plot, which needed the `matplotlib` package (which in turn has `numpy` and others as dependencies). We should avoid installing packages into a global interpreter environment. Use a project-specific `virtual environment` which contains a copy of a global environment instead!
 
 1. Create and activate a virtual environment
@@ -36,3 +38,6 @@ Note: PyPI = Python Package Index
 * [Settings reference](https://code.visualstudio.com/docs/python/settings-reference) - Explore the full range of Python-related settings in VS Code.
 * [Deploy Python to Azure App Service using containers](https://learn.microsoft.com/azure/developer/python/tutorial-deploy-containers-01)
 * [Deploy Python to Azure App Service on Linux](https://learn.microsoft.com/azure/developer/python/configure-python-web-app-local-environment)
+
+## grep.py
+I wanted to try something like grep, followed examples in [this article](https://linuxhint.com/run-grep-python/).
